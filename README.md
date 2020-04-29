@@ -1,2 +1,2 @@
-# bhattadi.github.io
-Personal Portfolio
+# AdityaBhatt
+A Personal Portfolio
