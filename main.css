@@ -12,6 +12,7 @@ p{
     font-size: 250%;
 }
 
+
 body{
     font-size: 125%;
     padding: 0%;
@@ -24,8 +25,7 @@ body{
 img{
     vertical-align: middle;
     border-radius: 50%;
-    background-size: fixed;
-    margin-right: 30px;
+    margin-right: 10%;
 }
 
 h1{
