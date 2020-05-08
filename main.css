@@ -21,14 +21,21 @@ body{
     vertical-align: middle;
 }
 
-img{
-    vertical-align: middle;
-    border-radius: 50%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
 
 h1{
     text-align: center;
     margin-left: 5%;
 }
+
+.image{
+    position: relative;
+}
+
+h3{ 
+position: absolute; /* To place the text on the image*/
+top: 60%; /* The exact location of the text from the top of the image*/
+width: 100%; 
+font-size: xx-large;
+font-family: "Palatino Linotype", "Book Antiqua";
+font-size: 5vw; 
+text-decoration: underline overline;}
