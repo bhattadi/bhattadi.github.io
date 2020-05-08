@@ -1,10 +1,12 @@
-h2{
+h2, h3{
     color: #ffffff;
     text-align: center;
 }
 
 p{
-    font-weight: 1
+    font-weight: 1;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .title{
@@ -14,8 +16,6 @@ p{
 
 body{
     font-size: 125%;
-    padding: 0%;
-    margin: 0%;
     background-color: rgba(0, 0, 0, 0.856);
     color: honeydew;
     vertical-align: middle;
@@ -24,9 +24,11 @@ body{
 img{
     vertical-align: middle;
     border-radius: 50%;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 h1{
     text-align: center;
+    margin-left: 5%;
 }
