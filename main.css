@@ -12,7 +12,6 @@ p{
 h4{
     margin-left: 5%;
     margin-right: 5%;
-    font-size: 2vw;
 }
 .title{
     font-size: 250%;
@@ -20,7 +19,7 @@ h4{
 
 
 body{
-    font-size: 1.75vw;
+    font-size: 125%;
     background-color: rgba(0, 0, 0, 0.856);
     color: honeydew;
     vertical-align: middle;
