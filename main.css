@@ -1,34 +1,26 @@
 h2, h3{
-    color: #ffffff;
     text-align: center;
 }
 
 p{
-    font-weight: 1;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-weight: 200;
 }
 
-h4{
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .title{
     font-size: 250%;
 }
 
 
 body{
-    font-size: 125%;
+    font-size: 110%;
     background-color: rgba(0, 0, 0, 0.856);
-    color: honeydew;
+    color: white;
     vertical-align: middle;
 }
 
 
 h1{
     text-align: center;
-    margin-left: 5%;
 }
 
 .image{
@@ -43,3 +35,8 @@ font-size: xx-large;
 font-family: "Palatino Linotype", "Book Antiqua";
 font-size: 5vw; 
 text-decoration: underline overline;}
+
+.experience{
+    color: black;
+    background-color: white;
+}
