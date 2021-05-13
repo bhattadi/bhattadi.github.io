@@ -39,3 +39,8 @@ h3{
     color: black;
     background-color: white;
 }
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 75px;
+  }
