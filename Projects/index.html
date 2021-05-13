@@ -36,11 +36,69 @@
       <br>
       <h2>Projects</h2>
       <br>
+
+    <span>
+      <img src='stock_prediction.jpeg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
+      <h4 style='margin-left: 10%;'>Stock Movement Predictor </h4>
+      <p style='font-style:italic; margin-left: 10%;'>
+        05/10/2021 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-info ml-2">Personal Project</span> 
+        <a href=https://github.com/bhattadi/stock_analyzer style="color: black;" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+      </p>
+
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='scikit_logo.png' height=30>
+      </p>
+      <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
+        I implemented a Neural Network with Sklearn in Python to predict if a stock will 
+        increase from historical trends. I leveraged the yFinance API to pull Adjusted-Closing market 
+        prices for stocks in the last 60 days as training data. Once the market prices were obtained, I
+        normalized each stock price on a scale of 0 to 1 to represent the percent change from the
+        previous day. I ran this model on thousands of Stock Tickers in Markets across the Globe.
+        Click <a href='https://github.com/bhattadi/stock_analyzer'>here</a> to checkout
+        the GitHub Repository for this project!
+      </p>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span>
+      <img src='wikipedia.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
+      <h4 style='margin-left: 10%;'>Wikipedia Search Engine Clone</h4>
+      <p style='font-style:italic; margin-left: 10%;'>04/18/2021 <span class="badge badge-primary ml-2">Web Development</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='flask_logo.png' height=30>
+      </p>
+      <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
+        I built a Web-Based search engine by processing and ranking over 3000 Wikipedia articles by writing 
+        Hadoop MapReduce programs. Each article was processed by removing stop words, removing punctuation, 
+        converting to lowercase, and computing the relative frequency of words within each article. Then, 
+        I computed TF-IDF (Term Frequency - Inverse Document Frequency) scores with given PageRank scores 
+        based off the given query in the Search box. This backend of the search engine was implemented in 
+        Python and I used Flask to design Front-End Web Pages by building 2 specific servers - 1 for indexing
+        the articles and the other for querying the indexed database. 
+      </p>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
       
     <span>
       <img src='summarize.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Time Customizable Abstractive Text Summarization</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/20/2021</p>
+      <p style='font-style:italic; margin-left: 10%;'>04/20/2021 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='tensorflow_logo.png' height=30> <img src='keras_logo.png' height=30>
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I implemented a neural network that aims to understand human emotion,
         sarcasm, and context clues by predicting summaries of user-specified 
@@ -57,15 +115,78 @@
     <br>
 
     <span>
+      <img src='instagram.jpeg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
+      <h4 style='margin-left: 10%;'>Instagram Clone</h4>
+      <p style='font-style:italic; margin-left: 10%;'>03/18/2021 <span class="badge badge-primary ml-2">Web Development</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='html_css_logo.jpg' height="30"> <img src='javascript_logo.png' height=30> <img src='react_logo.png' height=30> <img src='flask_logo.png' height=30> <img src='sql_logo.jpg' height=30>
+      </p>
+      <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
+        I recreated Instagram in Python by building personalized user profiles by using Flask with Jinja 
+        Templating and React. I used JavaScript for web-specific features (infinite scroll, double tap, 
+        history) and used SQL to store user data such as Name, Username, Posts, Comments, Followers, and
+        Following in Oracle Tables. To ensure that the username and passwords were securely stored, I used 
+        SALT SHA512 Encryption Algorithm when inserting into the database and always Sanitized inputs in Python
+        to guard again SQL injections. 
+      </p>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span>
+      <img src='web_dev.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
+      <h4 style='margin-left: 10%;'>Hotel Check-in Application</h4>
+      <p style='font-style:italic; margin-left: 10%;'>
+        05/24/2020 <span class="badge badge-primary ml-2">Web Development</span> <span class="badge badge-info ml-2">Personal Project</span> 
+        <a href=https://github.com/bhattadi/Hotel-Automation style="color: black;" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+      </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='dart_logo.png' height=30> <img src='flutter.png' height=30> <img src='firebase.png' height=30>
+      </p>
+      <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
+        I designed a cross-platform application (Web, iOS, Android) for users to book/edit hotel reservations 
+        by using Flutter. This app allows people to login into their individual accounts and either
+        book, delete, or modify a reservation. Additionally, the app allows users to analyze price changes and
+        available rooms during a given date range at a specific hotel. I used Google Firebase as the database
+        to securely store and authenticate users and built app components and widgets with Dart programming language
+        to take advantage of Google's documentation on Asynchronous Programming. Checkout the GitHub Repository
+        for this project <a href='https://github.com/bhattadi/Hotel-Automation'>here</a>! 
+      </p>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <span>
       <img src='music.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Weather Effect of Music Analyzer</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/27/2020</p>
+      <p style='font-style:italic; margin-left: 10%;'>04/27/2020 
+        <span class="badge badge-primary ml-2">Web Development</span> <span class="badge badge-danger ml-2">Course Project</span> 
+        <a href=https://github.com/bhattadi/Weather-Music-Analyzer style="color: black;" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+      </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='html_css_logo.jpg' height="30"> <img src='spotify_logo.png' height="30">
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         This Python script calls the Spotify API, MetaWeather API, 
         and Billboards API to gather data as JSON objects and store them in a 
         sqlite3 database. I collected data from 2013 to 2020 and produced 
         visualizations using Matplotlib to analyze what genre of music is 
-        most popular during different weather conditions.
+        most popular during different weather conditions. Checkout the GitHub Repository
+        for this project <a href='https://github.com/bhattadi/Weather-Music-Analyzer'>here</a>! 
       </p>
     </span>
 
@@ -77,7 +198,10 @@
     <span>
       <img src='deep.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Deep Neural Network for Image Classification</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/02/2020</p>
+      <p style='font-style:italic; margin-left: 10%;'>04/02/2020 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-danger ml-2">Course Project</span></p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='pyTorch.png' height="30">
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I designed a deep neural network using PyTorch to classify images
         of Pasta, Soup, Salad, Sandwich, and Cake with unknown labels.
@@ -95,8 +219,11 @@
 
     <span>
       <img src='web.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
-      <h4 style='margin-left: 10%;'>Web Scraping</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/02/2020</p>
+      <h4 style='margin-left: 10%;'>Web Scraping </h4>
+      <p style='font-style:italic; margin-left: 10%;'>04/02/2020  <span class="badge badge-primary ml-2">Web Development</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='html_css_logo.jpg' height="30">
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         This Python Project aims to take extract out data as a JSON object
         from a website and take out relevant information. This project
@@ -113,7 +240,10 @@
     <span>
       <img src='nlp.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Natural Language Processing Text Analyzer</h4>
-      <p style='font-style:italic; margin-left: 10%;'>02/15/2020</p>
+      <p style='font-style:italic; margin-left: 10%;'>02/15/2020 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='python_logo.jpg' height=30> <img src='scikit_logo.png' height=30>
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         This Python Project tries to predict the sentiment of a particular
         'Rate my Professor' post. For example, the post 'This was the best
@@ -135,14 +265,25 @@
     <span>
       <img src='math.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Android Application Development</h4>
-      <p style='font-style:italic; margin-left: 10%;'>05/15/2019</p>
+      <p style='font-style:italic; margin-left: 10%;'>
+        05/15/2019 <span class="badge badge-primary ml-2">Web Development</span> <span class="badge badge-danger ml-2">Course Project</span> 
+        <a href='https://github.com/bhattadi/Calculator' style="color: black;" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+      </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='java_logo.png' height=30> <img src='android_logo.html' height=30> <img src='google_playstore_logo.png' height=30>
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I released an Android App called "Scientific Calculator" on the Google Play Store
         to compute different mathematical operations. I used Android Studio to modify
         various screen activities and wrote the app in Java. I learned to use a Gradle build
         System to store my application data as an APK file. See
-        <a style='color: white; font-weight: bold;' href='https://play.google.com/store/apps/details?id=com.calculatorFirstApplicationReleaseForTesting.simplecalculator'>here</a>
-        to download the app off the Google Play Store!
+        <a href='https://play.google.com/store/apps/details?id=com.calculatorFirstApplicationReleaseForTesting.simplecalculator'>here</a>
+        to download the app off the Google Play Store! Checkout the GitHub Repository
+        for this project <a href='https://github.com/bhattadi/Calculator'>here</a>! 
       </p>
     </span>
 
@@ -154,7 +295,10 @@
     <span>
       <img src='cv.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Computer Vision Based Facial Recognition</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/23/2019</p>
+      <p style='font-style:italic; margin-left: 10%;'>04/23/2019 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='matlab_logo.png' height=30>
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I programmed a facial recognition program in MATLAB from open
         sources to apply linear algebra principles and construct an eigenface. The model
@@ -173,7 +317,10 @@
     <span>
       <img src='microprocessor.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Microprocessor-Based Music Synthesizer</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/20/2019</p>
+      <p style='font-style:italic; margin-left: 10%;'>04/20/2019 <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: Verilog and Assembly Language
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I engineered a keyboard synthesizer to teach people how to play musical
         notes on a digital piano. I developed a functional microprocessor by designing
@@ -192,7 +339,10 @@
     <span>
       <img src='ml.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Machine Learning-Based Post Classifier</h4>
-      <p style='font-style:italic; margin-left: 10%;'>04/20/2019</p>
+      <p style='font-style:italic; margin-left: 10%;'>04/20/2019 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='cpp_logo.png' height=30>
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I produced an algorithm to automatically identify the subject of a post
         from an online question and answer web service (Piazza). The program 
@@ -211,7 +361,10 @@
     <span>
       <img src='sanfran.jpg' width=30%; align='right' style='margin-left: 10%; margin-right: 10%; '> 
       <h4 style='margin-left: 10%;'>Content-Aware Image Resizing Algorithm</h4>
-      <p style='font-style:italic; margin-left: 10%;'>02/15/2019</p>
+      <p style='font-style:italic; margin-left: 10%;'>02/15/2019 <span class="badge badge-success ml-2">Machine Learning</span> <span class="badge badge-danger ml-2">Course Project</span> </p>
+      <p style='margin-left: 10%;'>
+        Technology Stack: <img src='cpp_logo.png' height=30>
+      </p>
       <p style= 'margin-left: 10%; margin-right: 40%; text-align: justify;'>
         I produced an algorithm to resize an image by computing a cost 
         and energy matrix and removing unnecessary noise. The seam-carving 
